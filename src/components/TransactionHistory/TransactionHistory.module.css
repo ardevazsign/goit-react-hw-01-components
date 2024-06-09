@@ -1,0 +1,42 @@
+
+.tableContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.transactionHistory {
+  background: aliceblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}          
+.tableHeader:first-child{
+  border-top-left-radius: 10px;
+}
+.tableHeader:last-child{
+  border-top-right-radius: 10px;
+}
+
+.tableHeader {
+  
+  padding: 10px 100px 10px 100px;
+  text-align: center;
+  text-transform:uppercase;
+  /* border-bottom: 1px solid lightblue; */
+  background-color: aqua;
+  color: #fff;
+}
+
+.tableData {
+  color: dimgray;
+  padding: 8px 100px 8px 100px;
+  text-align: center;
+}
+.tableData:first-of-type {
+  text-transform:capitalize;
+}
+.tableRow:nth-of-type(even) {
+  background-color: lightgrey;
+}
+
